@@ -30,4 +30,4 @@ retorna a solução para o problema, geralmente após resolver um número possí
 * Time Complexity:
     * `O(E log V)`
 
-![Alt text](img/kruskal.gif?raw=true "Kruskal")
+![Alt text](img/Kruskal.gif?raw=true "Kruskal")
