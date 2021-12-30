@@ -4,6 +4,8 @@ Algoritmo de ordenação em ciência da computação é um algoritmo, de manipul
 dada sequência em uma certa ordem -- em outras palavras, efetua sua ordenação completa ou parcial. As ordens mais usadas
 são a numérica e a lexicográfica.
 
+---
+
 ### Quick sort
 
 O quicksort adota a estratégia de divisão e conquista. A estratégia consiste em rearranjar as chaves de modo que as

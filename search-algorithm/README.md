@@ -3,6 +3,8 @@
 Em ciência da computação, um algoritmo de busca, em termos gerais é um algoritmo que toma um problema como entrada e
 retorna a solução para o problema, geralmente após resolver um número possível de soluções.
 
+----
+
 ### Dijkstra's Algorithm
 
 > O algoritmo de Dijkstra, concebido pelo cientista da computação holandês Edsger Dijkstra em 1956 e publicado em 1959,
