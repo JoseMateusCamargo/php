@@ -13,7 +13,11 @@
 
 ### Search algorithm
 
-* [<b>Dijkstra's algorithm</b>, find the shortest path between any two vertices of a graph.](https://github.com/JoseMateusCamargo/php/tree/main/search-algorithm#readme)
+> Em ciência da computação, um algoritmo de pesquisa é um algoritmo (normalmente envolvendo uma infinidade de outros
+> algoritmos mais específicos) que resolve um problema de pesquisa. Os algoritmos de busca funcionam para recuperar
+> informações armazenadas dentro de alguma estrutura de dados, ou calculadas no espaço de busca de um domínio de
+> problema, com valores discretos ou contínuos.
+> [Search algorithm in PHP](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/README.md)
 
 ### Magic Methods
 
