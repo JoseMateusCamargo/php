@@ -12,7 +12,7 @@ retorna a solução para o problema, geralmente após resolver um número possí
 > em tempo computacional `O( E+ V log V)` onde V é o número de vértices e E é o número de arestas. O algoritmo que serve
 > para resolver o mesmo problema em um grafo com pesos negativos é o algoritmo de Bellman-Ford, que possui maior tempo
 > de execução que o Dijkstra.
-> [Dijkstra in PHP](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/Dijkstra.php)
+> [Dijkstra in PHP.](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/Dijkstra.php)
 
 * Time Complexity:
     * Worst Case: `O( E+ V log V)`
@@ -25,7 +25,7 @@ retorna a solução para o problema, geralmente após resolver um número possí
 
 > Outro algoritmo popular para encontrar uma árvore de abrangência mínima é o algoritmo de Kruskal.
 > É semelhante ao de algoritmo Prim e usa uma abordagem gananciosa para encontrar a solução.
-> [Kruskal in PHP](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/Kruskals.php)
+> [Kruskal in PHP.](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/Kruskals.php)
 
 * Time Complexity:
     * `O(E log V)`
@@ -39,7 +39,7 @@ retorna a solução para o problema, geralmente após resolver um número possí
 > O algoritmo de Prim para encontrar a árvore geradora mínima se baseia em uma abordagem gananciosa. Uma abordagem
 > gananciosa é definido como um paradigma de algoritmo onde tentamos encontrar a solução ótima global, considerando o
 > solução ótima local em cada estágio.
-> [Prim in PHP](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/Prim.php)
+> [Prim in PHP.](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/Prim.php)
 
 * Time Complexity:
     * `O(V²)`
