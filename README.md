@@ -11,7 +11,7 @@
 
 * [Types of Sorting Algorithms: <b>Quick Sort · Bubble Sort · Insertion Sort · Selection</b>.](https://github.com/JoseMateusCamargo/php/tree/main/sorting-algorithm#readme)
 
-### Search algorithm 
+### Search algorithm
 
 > Em ciência da computação, um algoritmo de pesquisa é um algoritmo (normalmente envolvendo uma infinidade de outros
 > algoritmos mais específicos) que resolve um problema de pesquisa. Os algoritmos de busca funcionam para recuperar
@@ -31,6 +31,7 @@
 * [<b>array_map</b> Applies the callback to the elements of the given arrays.](https://github.com/JoseMateusCamargo/php/blob/main/array/array_map.php)
 * [<b>array_reduce</b> Iteratively reduce the array to a single value using a callback function.](https://github.com/JoseMateusCamargo/php/blob/main/array/array_reduce.php)
 * [<b>array_multisort</b> Sort multiple or multi-dimensional arrays.](https://github.com/JoseMateusCamargo/php/blob/main/array/array_multisort.php)
+* [Subtract value from two arrays with the same key.](https://github.com/JoseMateusCamargo/php/blob/main/func_array_sub.php)
 
 #### Others
 
@@ -43,7 +44,6 @@
 * [<b>strict_types</b> Scalar type declarations.](https://github.com/JoseMateusCamargo/php/blob/main/strict_types.php)
 * [Null coalescing operator <b>(??)</b> has been added as syntactic sugar...](https://github.com/JoseMateusCamargo/php/blob/main/null_coalescing_operator.php)
 * [<b>Foreach</b> An easy way to iterate over arrays.](https://github.com/JoseMateusCamargo/php/blob/main/foreach.php)
-* [Subtract value from two arrays with the same key.](https://github.com/JoseMateusCamargo/php/blob/main/func_array_sub.php)
 * [Default argument values for function parameters.](https://github.com/JoseMateusCamargo/php/blob/main/func_param_default.php)
 * [Create an array of elements using <b>range()</b>.](https://github.com/JoseMateusCamargo/php/blob/main/range.php)
 
