@@ -38,8 +38,20 @@
 * [<b>array_reduce</b> Iteratively reduce the array to a single value using a callback function.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_reduce.php)
 * [<b>array_multisort</b> Sort multiple or multi-dimensional arrays.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_multisort.php)
 * [Subtract value from two arrays with the same key.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/array_subtract.php)
+* [Function that groups an array of associative arrays by some key.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/group_array_associative_by_key.php)
+* [Function that groups subarray data using multiple column values and sum other values.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/group_array_multiple_column.php)
 
-#### Others
+---
+
+### Tips and tricks
+
+* [Verifying multiple strings](https://github.com/)](https://github.com/JoseMateusCamargo/php/blob/main/func_param_default.php)
+* [Setting default argument values for function parameters.](https://github.com/JoseMateusCamargo/php/blob/main/func_param_default.php)
+* [<b>strict_types</b> Scalar type declarations.](https://github.com/JoseMateusCamargo/php/blob/main/strict_types.php)
+
+---
+
+### How to use (manual)
 
 * [<b>Lambda & Closure</b> - <i>anonymous functions</i>.](https://github.com/JoseMateusCamargo/php/blob/main/lambda_closure.php)
 * [<b>Generators</b> Understanding PHP Generators.](https://github.com/JoseMateusCamargo/php/tree/main/generators)
@@ -47,10 +59,8 @@
 * [<b>func_get_arg</b> Return an item from the argument list.](https://github.com/JoseMateusCamargo/php/blob/main/func_get_arg.php)
 * [How to use <b>heredoc</b> and <b>nowdoc</b> syntax.](https://github.com/JoseMateusCamargo/php/blob/main/heredoc_nowdoc_syntax.php)
 * [Validating values with <b>spaceshift operator</b>.](https://github.com/JoseMateusCamargo/php/blob/main/spaceshift_operator.php)
-* [<b>strict_types</b> Scalar type declarations.](https://github.com/JoseMateusCamargo/php/blob/main/strict_types.php)
 * [Null coalescing operator <b>(??)</b> has been added as syntactic sugar...](https://github.com/JoseMateusCamargo/php/blob/main/null_coalescing_operator.php)
 * [<b>Foreach</b> An easy way to iterate over arrays.](https://github.com/JoseMateusCamargo/php/blob/main/foreach.php)
-* [Default argument values for function parameters.](https://github.com/JoseMateusCamargo/php/blob/main/func_param_default.php)
 * [Create an array of elements using <b>range()</b>.](https://github.com/JoseMateusCamargo/php/blob/main/range.php)
 
 ----
@@ -67,8 +77,6 @@
 * [<b>HMAC</b>, encrypt your message by hash using a private key known only to you and the API.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/hmac-verification.php)
 * [How to call <b>Python</b> file from within PHP?](https://github.com/JoseMateusCamargo/php/tree/main/scripts/run_python)
 * [Get Geolocation IP Address.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/get_geolocation.php)
-* [Function that groups an array of associative arrays by some key.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/group_array_associative_by_key.php)
-* [Function that groups subarray data using multiple column values and sum other values.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/group_array_multiple_column.php)
 * [Generate <b>.CSV</b> file and download from array.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/csv_array.php)
 
 ### Types of filters
