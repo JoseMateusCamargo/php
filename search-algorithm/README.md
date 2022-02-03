@@ -10,7 +10,7 @@ solução para o problema, geralmente após resolver um número possível de sol
 
 ----
 
-#### Let's Go Code! Some types of search algorithms
+#### Let's Go Code!
 
 [Dijkstra's Algorithm.](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/Dijkstra.php)
 
