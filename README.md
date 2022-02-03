@@ -27,7 +27,7 @@
 > Métodos mágicos são métodos especiais que substituem a ação padrão do PHP quando certas ações são executadas
 > em um objeto.
 
-* [The __invoke() method.](https://github.com/JoseMateusCamargo/php/blob/main/magic_methods/invoke.php)
+* [The __invoke() method.](https://github.com/JoseMateusCamargo/php/blob/main/magic-methods/invoke.php)
 
 ---
 
