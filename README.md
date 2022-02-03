@@ -25,13 +25,13 @@
 
 * [The __invoke() method.](https://github.com/JoseMateusCamargo/php/blob/main/magic_methods/invoke.php)
 
-#### Array
+### Manipulating Array
 
-* [<b>array_filter</b> Filters elements of an array using a callback function.](https://github.com/JoseMateusCamargo/php/blob/main/array/array_filter.php)
-* [<b>array_map</b> Applies the callback to the elements of the given arrays.](https://github.com/JoseMateusCamargo/php/blob/main/array/array_map.php)
-* [<b>array_reduce</b> Iteratively reduce the array to a single value using a callback function.](https://github.com/JoseMateusCamargo/php/blob/main/array/array_reduce.php)
-* [<b>array_multisort</b> Sort multiple or multi-dimensional arrays.](https://github.com/JoseMateusCamargo/php/blob/main/array/array_multisort.php)
-* [Subtract value from two arrays with the same key.](https://github.com/JoseMateusCamargo/php/blob/main/func_array_sub.php)
+* [<b>array_filter</b> Filters elements of an array using a callback function.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_filter.php)
+* [<b>array_map</b> Applies the callback to the elements of the given arrays.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_map.php)
+* [<b>array_reduce</b> Iteratively reduce the array to a single value using a callback function.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_reduce.php)
+* [<b>array_multisort</b> Sort multiple or multi-dimensional arrays.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_multisort.php)
+* [Subtract value from two arrays with the same key.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/array_subtract.php)
 
 #### Others
 
