@@ -15,11 +15,8 @@
 
 ### Search algorithm
 
-> Em ciência da computação, um algoritmo de pesquisa é um algoritmo (normalmente envolvendo uma infinidade de outros
-> algoritmos mais específicos) que resolve um problema de pesquisa. Os algoritmos de busca funcionam para recuperar
-> informações armazenadas dentro de alguma estrutura de dados, ou calculadas no espaço de busca de um domínio de
-> problema, com valores discretos ou contínuos. Em termos gerais é um algoritmo que toma um problema como entrada e
-> retorna a solução para o problema, geralmente após resolver um número possível de soluções.
+> ... Em termos gerais é um algoritmo que toma um problema como entrada e retorna a solução para o problema,
+> geralmente após resolver um número possível de soluções.
 
 * [Search algorithm in PHP.](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/README.md)
 
