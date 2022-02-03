@@ -38,30 +38,32 @@
 * [<b>array_reduce</b> Iteratively reduce the array to a single value using a callback function.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_reduce.php)
 * [<b>array_multisort</b> Sort multiple or multi-dimensional arrays.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_multisort.php)
 * [Subtract value from two arrays with the same key.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/array_subtract.php)
-* [Function that groups an array of associative arrays by some key.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/group_array_associative_by_key.php)
-* [Function that groups subarray data using multiple column values and sum other values.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/group_array_multiple_column.php)
+* [Function that groups an array of associative arrays by some key.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/group_array_associative_by_key.php)
+* [Function that groups subarray data using multiple column values and sum other values.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/group_array_multiple_column.php)
 
 ---
 
 ### Tips and tricks
 
-* [Verifying multiple strings](https://github.com/)](https://github.com/JoseMateusCamargo/php/blob/main/func_param_default.php)
-* [Setting default argument values for function parameters.](https://github.com/JoseMateusCamargo/php/blob/main/func_param_default.php)
-* [<b>strict_types</b> Scalar type declarations.](https://github.com/JoseMateusCamargo/php/blob/main/strict_types.php)
+* [Verifying multiple strings.](https://github.com/JoseMateusCamargo/php/blob/main/tips-and-tricks/verifying_multiple_strings.php)
+* [Setting default argument values for function parameters.](https://github.com/JoseMateusCamargo/php/blob/main/tips-and-tricks/param_default.php)
+* [<b>strict_types</b> Scalar type declarations.](https://github.com/JoseMateusCamargo/php/blob/main/tips-and-tricks/strict_types.php)
 
 ---
 
 ### How to use (manual)
 
-* [<b>Lambda & Closure</b> - <i>anonymous functions</i>.](https://github.com/JoseMateusCamargo/php/blob/main/lambda_closure.php)
 * [<b>Generators</b> Understanding PHP Generators.](https://github.com/JoseMateusCamargo/php/tree/main/generators)
 * [<b>Coroutines</b> Cooperative multitasking using coroutines (in PHP!).](https://github.com/JoseMateusCamargo/php/tree/main/coroutine)
-* [<b>func_get_arg</b> Return an item from the argument list.](https://github.com/JoseMateusCamargo/php/blob/main/func_get_arg.php)
-* [How to use <b>heredoc</b> and <b>nowdoc</b> syntax.](https://github.com/JoseMateusCamargo/php/blob/main/heredoc_nowdoc_syntax.php)
-* [Validating values with <b>spaceshift operator</b>.](https://github.com/JoseMateusCamargo/php/blob/main/spaceshift_operator.php)
-* [Null coalescing operator <b>(??)</b> has been added as syntactic sugar...](https://github.com/JoseMateusCamargo/php/blob/main/null_coalescing_operator.php)
-* [<b>Foreach</b> An easy way to iterate over arrays.](https://github.com/JoseMateusCamargo/php/blob/main/foreach.php)
-* [Create an array of elements using <b>range()</b>.](https://github.com/JoseMateusCamargo/php/blob/main/range.php)
+
+
+* [<b>Lambda & Closure</b> - <i>anonymous functions</i>.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/lambda_closure.php)
+* [<b>func_get_arg</b> Return an item from the argument list.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/func_get_arg.php)
+* [How to use <b>heredoc</b> and <b>nowdoc</b> syntax.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/heredoc_nowdoc_syntax.php)
+* [Validating values with <b>spaceshift operator</b>.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/spaceshift_operator.php)
+* [Null coalescing operator <b>(??)</b>.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/null_coalescing_operator.php)
+* [<b>Foreach</b> An easy way to iterate over arrays.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/foreach.php)
+* [Create an array of elements using <b>range()</b>.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/range.php)
 
 ----
 
@@ -82,7 +84,7 @@
 ### Types of filters
 
 > Sanitize filters. [Documentation.](https://www.php.net/manual/en/filter.filters.sanitize.php)  
-> [Using native php filters, examples.](https://github.com/JoseMateusCamargo/php/blob/main/sanitize.php)
+> [Using native php filters, examples.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/sanitize.php)
 
 ### Direitos de uso (Use rights)
 
