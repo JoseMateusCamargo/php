@@ -49,3 +49,12 @@ solução ótima local em cada estágio.
     * `O(V²)`
 
 ![Alt text](img/Prim.gif?raw=true "Prim")
+
+---
+
+### Direitos de uso (Use rights)
+
+<p>
+  Você tem todo o direito de usar esse material para seu próprio aprendizado.<br/>
+  You can use this material for your own learning.
+</p>
