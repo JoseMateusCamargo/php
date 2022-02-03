@@ -11,19 +11,28 @@
 
 * [Types of Sorting Algorithms: <b>Quick Sort · Bubble Sort · Insertion Sort · Selection</b>.](https://github.com/JoseMateusCamargo/php/tree/main/sorting-algorithm#readme)
 
+----
+
 ### Search algorithm
 
 > Em ciência da computação, um algoritmo de pesquisa é um algoritmo (normalmente envolvendo uma infinidade de outros
 > algoritmos mais específicos) que resolve um problema de pesquisa. Os algoritmos de busca funcionam para recuperar
 > informações armazenadas dentro de alguma estrutura de dados, ou calculadas no espaço de busca de um domínio de
-> problema, com valores discretos ou contínuos.
-> [Search algorithm in PHP](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/README.md)
+> problema, com valores discretos ou contínuos. Em termos gerais é um algoritmo que toma um problema como entrada e
+> retorna a solução para o problema, geralmente após resolver um número possível de soluções.
+
+* [Search algorithm in PHP.](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/README.md)
+
+----
 
 ### Magic Methods
 
-> Magic methods are special methods which override PHP's default's action when certain actions are performed on an object.
+> Métodos mágicos são métodos especiais que substituem a ação padrão do PHP quando certas ações são executadas
+> em um objeto.
 
 * [The __invoke() method.](https://github.com/JoseMateusCamargo/php/blob/main/magic_methods/invoke.php)
+
+---
 
 ### Manipulating Array
 
@@ -47,10 +56,14 @@
 * [Default argument values for function parameters.](https://github.com/JoseMateusCamargo/php/blob/main/func_param_default.php)
 * [Create an array of elements using <b>range()</b>.](https://github.com/JoseMateusCamargo/php/blob/main/range.php)
 
+----
+
 ### Reading & Manipulating CSV Files
 
 * [Save <b>array</b> in .csv file.](https://github.com/JoseMateusCamargo/php/blob/main/csv-manipulating/save_array_in_csv.php)
 * [Save <b>object</b> in .csv file.](https://github.com/JoseMateusCamargo/php/blob/main/csv-manipulating/save_object_to_csv.php)
+
+----
 
 ### Scripts
 
