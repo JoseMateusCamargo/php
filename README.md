@@ -53,9 +53,8 @@
 
 ### How to use (manual)
 
-* [<b>Generators</b> Understanding PHP Generators.](https://github.com/JoseMateusCamargo/php/tree/main/generators)
-* [<b>Coroutines</b> Cooperative multitasking using coroutines (in PHP!).](https://github.com/JoseMateusCamargo/php/tree/main/coroutine)
-
+> * [<b>Generators</b> Understanding PHP Generators.](https://github.com/JoseMateusCamargo/php/tree/main/generators)
+>* [<b>Coroutines</b> Cooperative multitasking using coroutines (in PHP!).](https://github.com/JoseMateusCamargo/php/tree/main/coroutine)
 
 * [<b>Lambda & Closure</b> - <i>anonymous functions</i>.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/lambda_closure.php)
 * [<b>func_get_arg</b> Return an item from the argument list.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/func_get_arg.php)
