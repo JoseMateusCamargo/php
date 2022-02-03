@@ -80,10 +80,13 @@
 * [Get Geolocation IP Address.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/get_geolocation.php)
 * [Generate <b>.CSV</b> file and download from array.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/csv_array.php)
 
+---
+
 ### Types of filters
 
-> Sanitize filters. [Documentation.](https://www.php.net/manual/en/filter.filters.sanitize.php)  
-> [Using native php filters, examples.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/sanitize.php)
+> Sanitize filters. [Documentation.](https://www.php.net/manual/en/filter.filters.sanitize.php)
+
+* [Using native php filters, examples.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/sanitize.php)
 
 ### Direitos de uso (Use rights)
 
