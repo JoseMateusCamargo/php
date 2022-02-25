@@ -1,7 +1,7 @@
 <?php
 # How to use HEREDOC and NOWDOC syntax
 
-# ref: https://www.php.net/manual/pt_BR/language.types.string.php#language.types.string.syntax.heredoc
+# Documentation: https://www.php.net/manual/pt_BR/language.types.string.php#language.types.string.syntax.heredoc
 # HEREDOC == ""
 $x = 50;
 $ref = "https://www.php.net/manual/pt_BR/language.types.string.php#language.types.string.syntax.heredoc";
