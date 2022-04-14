@@ -35,7 +35,7 @@
 
 Alguns projetos e scritps _simples_ que podem ser uteis para idéias e quem sabe ainda usar em outros projetos.
 
-* [Usando um <b>speaker</b> - convertendo texto em fala no PHP.]()
+* [Construindo um <b>speaker</b> - convertendo texto em fala no PHP.](https://github.com/JoseMateusCamargo/php/blob/main/projects/speaker/speaker.php)
 
 ---
 
