@@ -31,6 +31,14 @@
 
 ---
 
+### Projetos e scripts
+
+Alguns projetos e scritps _simples_ que podem ser uteis para idéias e quem sabe ainda usar em outros projetos.
+
+* [Usando um <b>speaker</b> - convertendo texto em fala no PHP.]()
+
+---
+
 ### Manipulating Array
 
 * [<b>array_filter</b> Filters elements of an array using a callback function.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_filter.php)
