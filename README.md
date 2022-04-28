@@ -53,7 +53,6 @@ Alguns projetos e scritps _simples_ que podem ser uteis para idéias e quem sabe
 
 ### Tips and tricks
 
-* [Verifying multiple strings.](https://github.com/JoseMateusCamargo/php/blob/main/tips-and-tricks/verifying_multiple_strings.php)
 * [Setting default argument values for function parameters.](https://github.com/JoseMateusCamargo/php/blob/main/tips-and-tricks/param_default.php)
 * [<b>strict_types</b> Scalar type declarations.](https://github.com/JoseMateusCamargo/php/blob/main/tips-and-tricks/strict_types.php)
 
