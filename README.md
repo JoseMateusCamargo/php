@@ -60,8 +60,29 @@ Alguns projetos e scritps _simples_ que podem ser uteis para idéias e quem sabe
 
 ### How to use (manual)
 
-> * [<b>Generators</b> Understanding PHP Generators.](https://github.com/JoseMateusCamargo/php/tree/main/generators)
-> * [<b>Coroutines</b> Cooperative multitasking using coroutines (in PHP!).](https://github.com/JoseMateusCamargo/php/tree/main/coroutine)
+#### Generators
+
+Numa explicação acessível, _Generators_ são uma forma prática de se implementar _Iterators_. Para criar uma função
+Generator, basta que ela possua a palavra reservada `yield`. O operador `yield` é uma espécie de `return`, só que com
+algumas particularidades. E uma função desse tipo retorna um objeto da classe `Generator`, que é uma classe especial e
+específica para esse contexto, não sendo possível utilizá-la de outra forma. Esse objeto retornado pode ser iterado
+
+* [Trabalhando com <b>Generators</b> de uma forma simples.](https://github.com/JoseMateusCamargo/php/tree/main/generators/generators_example.php)
+* [Trabalhando com <b>Generators</b> exemplo de uso (memória).](https://github.com/JoseMateusCamargo/php/tree/main/generators/generators_example2.php)
+* [conhecendo mais sobre <b>Generators</b>, criando uma (`class`).](https://github.com/JoseMateusCamargo/php/tree/main/generators)
+
+#### Coroutines
+
+Coroutines são funções interrompíveis. Em PHP eles podem ser implementados usando _generators_.
+
+Enquanto os _generators_ geralmente são usados para implementar _iterators_ simples e elementos de rendimento usando a
+palavra chave `yield`, usadas como pontos de interrupção. Quando uma coroutine `yield` gera um valor, a execução da
+_coroutine_ é temporariamente interrompida, permitindo que outras tarefas sejam executadas, como manipuladores de E/S,
+temporizadores ou outras _coroutines_.
+
+* [<b>Coroutines</b> Cooperative multitasking using coroutines (in PHP!).](https://github.com/JoseMateusCamargo/php/tree/main/coroutine)
+
+---
 
 * [Limpar as informações em cache sobre arquivos <b>clearstatcache</b>.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/clearstatcache.php)
 * [<b>Lambda & Closure</b> - <i>anonymous functions</i>.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/lambda_closure.php)
