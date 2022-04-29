@@ -68,7 +68,7 @@ algumas particularidades. E uma função desse tipo retorna um objeto da classe 
 específica para esse contexto, não sendo possível utilizá-la de outra forma. Esse objeto retornado pode ser iterado
 
 * [Trabalhando com <b>Generators</b> de uma forma simples.](https://github.com/JoseMateusCamargo/php/tree/main/generators/generators_example.php)
-* [Trabalhando com <b>Generators</b> exemplo de uso (memória).](https://github.com/JoseMateusCamargo/php/tree/main/generators/generators_example2.php)
+* [Trabalhando com <b>Generators</b> exemplo de uso (memória).](https://github.com/JoseMateusCamargo/php/tree/main/generators/generators_example_2.php)
 * [conhecendo mais sobre <b>Generators</b>, criando uma (`class`).](https://github.com/JoseMateusCamargo/php/tree/main/generators)
 
 #### Coroutines
