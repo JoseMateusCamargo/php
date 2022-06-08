@@ -95,10 +95,11 @@ temporizadores ou outras _coroutines_.
 
 ----
 
-### Reading & Manipulating CSV Files
+### Manipulando arquivos CSV
 
-* [Save <b>array</b> in .csv file.](https://github.com/JoseMateusCamargo/php/blob/main/csv-manipulating/save_array_in_csv.php)
-* [Save <b>object</b> in .csv file.](https://github.com/JoseMateusCamargo/php/blob/main/csv-manipulating/save_object_to_csv.php)
+* [Salvando <b>array</b> em arquivo CSV.](https://github.com/JoseMateusCamargo/php/blob/main/csv-manipulating/save_array_in_csv.php)
+* [Salvando <b>object</b> em arquivo CSV.](https://github.com/JoseMateusCamargo/php/blob/main/csv-manipulating/save_object_to_csv.php)
+* [Como gerar aquivo CSV de um array para download, `File/Download`.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/csv_array.php)
 
 ----
 
@@ -107,7 +108,7 @@ temporizadores ou outras _coroutines_.
 * [<b>HMAC</b>, encrypt your message by hash using a private key known only to you and the API.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/hmac-verification.php)
 * [How to call <b>Python</b> file from within PHP?](https://github.com/JoseMateusCamargo/php/tree/main/scripts/run_python)
 * [Get Geolocation IP Address.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/get_geolocation.php)
-* [Generate <b>.CSV</b> file and download from array.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/csv_array.php)
+* [Como gerar aquivo CSV de um array para download, `File/Download`.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/csv_array.php)
 
 ---
 
