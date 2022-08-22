@@ -11,6 +11,6 @@ $prod = [
 $total = array_reduce($prod, static function ($value, $prod) {
     $value += $prod['value'];
     return $value;
-});
+}, 0); // Inicial 0
 
 echo $total;
