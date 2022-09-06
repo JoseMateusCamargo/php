@@ -14,7 +14,7 @@
 - [Limpar as informações em cache sobre arquivos `clearstatcache`.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/clearstatcache.php)
 - [`Lambda` e `Closure`, funções anonimas.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/lambda_closure.php)
 - [`func_get_arg`, como retornar um item da lista de argumentos.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/func_get_arg.php)
-- [Usando filtros php nativos (`sanitize`)](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/sanitize.php)
+- [Usando filtros php nativos (`sanitize`).](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/sanitize.php)
 
 ---
 
