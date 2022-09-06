@@ -7,57 +7,6 @@
   Simple material with PHP examples.
 </p>
 
-### Sorting algorithm
-
-* [Types of Sorting Algorithms: <b>Quick Sort · Bubble Sort · Insertion Sort · Selection</b>.](https://github.com/JoseMateusCamargo/php/tree/main/sorting-algorithm#readme)
-
-----
-
-### Search algorithm
-
-> ... Em termos gerais é um algoritmo que toma um problema como entrada e retorna a solução para o problema,
-> geralmente após resolver um número possível de soluções.
-
-* [Search algorithm in PHP.](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/README.md)
-
-----
-
-### Magic Methods
-
-> Métodos mágicos são métodos especiais que substituem a ação padrão do PHP quando certas ações são executadas
-> em um objeto.
-
-* [The __invoke() method.](https://github.com/JoseMateusCamargo/php/blob/main/magic-methods/invoke.php)
-
----
-
-### Projetos e scripts
-
-Alguns projetos e scritps _simples_ que podem ser uteis para idéias e quem sabe ainda usar em outros projetos.
-
-* [Construindo um <b>speaker</b> - convertendo texto em fala no PHP.](https://github.com/JoseMateusCamargo/php/blob/main/projects/speaker/speaker.php)
-
----
-
-### Manipulating Array
-
-* [<b>array_filter</b> Filters elements of an array using a callback function.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_filter.php)
-* [<b>array_map</b> Applies the callback to the elements of the given arrays.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_map.php)
-* [<b>array_reduce</b> Iteratively reduce the array to a single value using a callback function.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_reduce.php)
-* [<b>array_multisort</b> Sort multiple or multi-dimensional arrays.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_multisort.php)
-* [Subtract value from two arrays with the same key.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/array_subtract.php)
-* [Function that groups an array of associative arrays by some key.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/group_array_associative_by_key.php)
-* [Function that groups subarray data using multiple column values and sum other values.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/group_array_multiple_column.php)
-
----
-
-### [Tips and tricks]()
-
-- Definindo valores de argumento padrão para parâmetros de função.
-- Declaração ripo `Scalar`.
-
----
-
 ### How to use (manual)
 
 #### Generators
@@ -84,6 +33,72 @@ temporizadores ou outras _coroutines_.
 
 ---
 
+### [Tips and tricks]()
+
+- Definindo valores de argumento padrão para parâmetros de função.
+- Declaração ripo `Scalar`.
+
+---
+
+### Sorting algorithm
+
+* [Types of Sorting Algorithms: <b>Quick Sort · Bubble Sort · Insertion Sort · Selection</b>.](https://github.com/JoseMateusCamargo/php/tree/main/sorting-algorithm#readme)
+
+----
+
+### Search algorithm
+
+> ... Em termos gerais é um algoritmo que toma um problema como entrada e retorna a solução para o problema,
+> geralmente após resolver um número possível de soluções.
+
+* [Search algorithm in PHP.](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/README.md)
+
+----
+
+### Magic Methods
+
+Métodos mágicos são métodos especiais que substituem a ação padrão do PHP quando certas ações são executadas
+em um objeto.
+
+**Método [__invoke](https://www.php.net/manual/pt_BR/language.oop5.magic.php#object.invoke)**
+
+O método __invoke() é chamado quando um script tenta chamar um objeto como uma função.
+
+```PHP
+class Logger
+{
+    public function __invoke($message)
+    {
+        echo strtoupper($message);
+    }
+}
+
+$log = new Logger();
+$log('Hello World'); // HELLO WORLD
+```
+
+---
+
+### Projetos e scripts
+
+Alguns projetos e scritps _simples_ que podem ser uteis para idéias e quem sabe ainda usar em outros projetos.
+
+* [Construindo um <b>speaker</b> - convertendo texto em fala no PHP.](https://github.com/JoseMateusCamargo/php/blob/main/projects/speaker/speaker.php)
+
+---
+
+### Manipulating Array
+
+* [<b>array_filter</b> Filters elements of an array using a callback function.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_filter.php)
+* [<b>array_map</b> Applies the callback to the elements of the given arrays.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_map.php)
+* [<b>array_reduce</b> Iteratively reduce the array to a single value using a callback function.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_reduce.php)
+* [<b>array_multisort</b> Sort multiple or multi-dimensional arrays.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_multisort.php)
+* [Subtract value from two arrays with the same key.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/array_subtract.php)
+* [Function that groups an array of associative arrays by some key.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/group_array_associative_by_key.php)
+* [Function that groups subarray data using multiple column values and sum other values.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/group_array_multiple_column.php)
+
+---
+
 * [Limpar as informações em cache sobre arquivos <b>clearstatcache</b>.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/clearstatcache.php)
 * [<b>Lambda & Closure</b> - <i>anonymous functions</i>.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/lambda_closure.php)
 * [<b>func_get_arg</b> Return an item from the argument list.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/func_get_arg.php)
@@ -93,7 +108,7 @@ temporizadores ou outras _coroutines_.
 * [<b>Foreach</b> An easy way to iterate over arrays.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/foreach.php)
 * [Create an array of elements using <b>range()</b>.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/range.php)
 
-----
+---
 
 ### Manipulando arquivos CSV
 
@@ -101,7 +116,7 @@ temporizadores ou outras _coroutines_.
 * [Salvando <b>object</b> em arquivo CSV.](https://github.com/JoseMateusCamargo/php/blob/main/csv-manipulating/save_object_to_csv.php)
 * [Como gerar aquivo CSV de um array para download, `File/Download`.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/csv_array.php)
 
-----
+---
 
 ### Scripts
 
