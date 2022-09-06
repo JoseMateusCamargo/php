@@ -42,16 +42,17 @@ temporizadores ou outras _coroutines_.
 
 ### Sorting algorithm
 
+> ... Algoritmo de ordenação em ciência da computação é um algoritmo, de manipulação de dados, que coloca os elementos
+> de uma dada sequência em uma certa ordem -- em outras palavras, efetua sua ordenação completa ou parcial.
+
 * [Types of Sorting Algorithms: <b>Quick Sort · Bubble Sort · Insertion Sort · Selection</b>.](https://github.com/JoseMateusCamargo/php/tree/main/sorting-algorithm#readme)
 
 ----
 
-### Search algorithm
+### [Search algorithm](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/README.md)
 
 > ... Em termos gerais é um algoritmo que toma um problema como entrada e retorna a solução para o problema,
 > geralmente após resolver um número possível de soluções.
-
-* [Search algorithm in PHP.](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/README.md)
 
 ----
 
@@ -87,15 +88,15 @@ Alguns projetos e scritps _simples_ que podem ser uteis para idéias e quem sabe
 
 ---
 
-### Manipulating Array
+### [Trabalhando com Arrays ]()
 
-* [<b>array_filter</b> Filters elements of an array using a callback function.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_filter.php)
-* [<b>array_map</b> Applies the callback to the elements of the given arrays.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_map.php)
-* [<b>array_reduce</b> Iteratively reduce the array to a single value using a callback function.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_reduce.php)
-* [<b>array_multisort</b> Sort multiple or multi-dimensional arrays.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_multisort.php)
-* [Subtract value from two arrays with the same key.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/array_subtract.php)
-* [Function that groups an array of associative arrays by some key.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/group_array_associative_by_key.php)
-* [Function that groups subarray data using multiple column values and sum other values.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/group_array_multiple_column.php)
+- `array_filter`, filtrar elementos de um array utilizando uma função `callback`.
+- `array_reduce`, reduzindo um array para um único valor através de um processo iterativo via função `callback`.
+- `array_map`, aplica uma função em todos os elementos do array.
+- Função simples para subtrair valor de duas matrizes com a mesma chave.
+- [Função que agrupa um array de arrays associativos por alguma chave.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/group_array_associative_by_key.php)
+- [Função que agrupa dados de `subarray` usando valores de várias colunas e soma outros valores.](https://github.com/JoseMateusCamargo/php/blob/main/arrays-manipulating/group_array_multiple_column.php)
+- [`array_multisort`, classifique arrays múltiplos ou multidimensionais.](https://github.com/JoseMateusCamargo/php/blob/main/array-manipulating/array_multisort.php)
 
 ---
 
@@ -112,9 +113,42 @@ Alguns projetos e scritps _simples_ que podem ser uteis para idéias e quem sabe
 
 ### Manipulando arquivos CSV
 
-* [Salvando <b>array</b> em arquivo CSV.](https://github.com/JoseMateusCamargo/php/blob/main/csv-manipulating/save_array_in_csv.php)
-* [Salvando <b>object</b> em arquivo CSV.](https://github.com/JoseMateusCamargo/php/blob/main/csv-manipulating/save_object_to_csv.php)
-* [Como gerar aquivo CSV de um array para download, `File/Download`.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/csv_array.php)
+- Salvando `array` em arquivo CSV.
+- Salvando `object` em arquivo CSV.
+- [Como gerar aquivo CSV de um array para download, `File/Download`.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/csv_array.php)
+
+**Salvando `array` em arquivo CSV**
+
+```PHP
+function saveArrayCsv(array $data, string $filename)
+{
+    $f = fopen($filename, 'wb');
+    $fields = array_keys((array)$data[0]); // Headers
+
+    fputcsv($f, $fields, ',');
+
+    foreach ($data as $key) {
+        fputcsv($f, (array)$key, ',');
+    }
+
+    fclose($f);
+}
+```
+
+**Salvando `object` em arquivo CSV**
+
+```PHP
+function saveObjectCsv(object $data, string $filename)
+{
+    $fp = fopen($filename, 'wb');
+
+    foreach ($data as $fields) {
+        fputcsv($fp, get_object_vars($fields));
+    }
+
+    fclose($fp);
+}
+```
 
 ---
 
