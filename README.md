@@ -7,7 +7,7 @@
   Simple material with PHP examples.
 </p>
 
-### [How to use (manual)]()
+### [How to use (manual)](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/HTU.md)
 
 - **Generators.**
 - **Coroutines.**
@@ -23,7 +23,7 @@
 
 ---
 
-### [Tips and tricks]()
+### [Tips and tricks](https://github.com/JoseMateusCamargo/php/blob/main/tips-and-tricks/TIPS.md)
 
 - Definindo valores de argumento padrão para parâmetros de função.
 - Declaração ripo `Scalar`.
