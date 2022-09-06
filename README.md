@@ -7,29 +7,19 @@
   Simple material with PHP examples.
 </p>
 
-### How to use (manual)
+### [How to use (manual)]()
 
-#### Generators
-
-Numa explicação acessível, _Generators_ são uma forma prática de se implementar _Iterators_. Para criar uma função
-Generator, basta que ela possua a palavra reservada `yield`. O operador `yield` é uma espécie de `return`, só que com
-algumas particularidades. E uma função desse tipo retorna um objeto da classe `Generator`, que é uma classe especial e
-específica para esse contexto, não sendo possível utilizá-la de outra forma. Esse objeto retornado pode ser iterado
-
-* [Trabalhando com <b>Generators</b> de uma forma simples.](https://github.com/JoseMateusCamargo/php/tree/main/generators/generators_example.php)
-* [Trabalhando com <b>Generators</b> exemplo de uso (memória).](https://github.com/JoseMateusCamargo/php/tree/main/generators/generators_example_2.php)
-* [conhecendo mais sobre <b>Generators</b>, criando uma (`class`).](https://github.com/JoseMateusCamargo/php/tree/main/generators)
-
-#### Coroutines
-
-Coroutines são funções interrompíveis. Em PHP eles podem ser implementados usando _generators_.
-
-Enquanto os _generators_ geralmente são usados para implementar _iterators_ simples e elementos de rendimento usando a
-palavra chave `yield`, usadas como pontos de interrupção. Quando uma coroutine `yield` gera um valor, a execução da
-_coroutine_ é temporariamente interrompida, permitindo que outras tarefas sejam executadas, como manipuladores de E/S,
-temporizadores ou outras _coroutines_.
-
-* [<b>Coroutines</b> Cooperative multitasking using coroutines (in PHP!).](https://github.com/JoseMateusCamargo/php/tree/main/coroutine)
+- **Generators.**
+- **Coroutines.**
+- Utilizando `foreach`, uma maneira fácil de iterar sobre arrays.
+- `range`, crie um array contendo um range de elementos.
+- `Spaceship operators`, o operador` <=>` é utilizado para fazer comparações combinadas (_validações_).
+- Como usar sintaxe `HEREDOC` e/ ou `NOWDOC`.
+- Operador `Null coalescing`.
+- [Limpar as informações em cache sobre arquivos `clearstatcache`.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/clearstatcache.php)
+- [`Lambda` e `Closure`, funções anonimas.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/lambda_closure.php)
+- [`func_get_arg`, como retornar um item da lista de argumentos.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/func_get_arg.php)
+- [Usando filtros php nativos (`sanitize`)](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/sanitize.php)
 
 ---
 
@@ -160,12 +150,6 @@ function saveObjectCsv(object $data, string $filename)
 * [Como gerar aquivo CSV de um array para download, `File/Download`.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/csv_array.php)
 
 ---
-
-### Types of filters
-
-> Sanitize filters. [Documentation.](https://www.php.net/manual/en/filter.filters.sanitize.php)
-
-* [Using native php filters, examples.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/sanitize.php)
 
 ### Direitos de uso (Use rights)
 
