@@ -7,7 +7,7 @@
 - **Generators.**
 - **Coroutines.**
 - Utilizando `foreach`, uma maneira fácil de iterar sobre arrays.
-- `range`, crie um array contendo um range de elementos.
+- `Range`, criar um array contendo um range de elementos.
 - `Spaceship operators`, o operador` <=>` é utilizado para fazer comparações combinadas (_validações_).
 - Como usar sintaxe `HEREDOC` e/ ou `NOWDOC`.
 - Operador `Null coalescing`.
@@ -44,7 +44,7 @@ temporizadores ou outras _coroutines_.
 
 ---
 
-**[`range`](https://www.php.net/manual/en/function.range.php), criar um array contendo um range de elementos**
+**[`Range`](https://www.php.net/manual/en/function.range.php), criar um array contendo um range de elementos**
 
 ```PHP
 $x = range(11, 1, 4);
@@ -64,7 +64,7 @@ foreach ($numbers as $key => &$value) {
 print_r($numbers);
 ```
 
-**Utilizando `foreach`**
+**Utilizando `foreach`, uma maneira fácil de iterar sobre arrays**
 
 ```PHP
 $list = ["aaaa", "bbbb", "cccc"];
