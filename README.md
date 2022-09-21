@@ -79,7 +79,7 @@ Alguns projetos e scritps _simples_ que podem ser uteis para idéias e quem sabe
 
 ---
 
-### [Trabalhando com Arrays ]()
+### [Trabalhando com Arrays ](https://github.com/JoseMateusCamargo/php/tree/main/arrays-manipulating#readme)
 
 - `array_filter`, filtrar elementos de um array utilizando uma função `callback`.
 - `array_reduce`, reduzindo um array para um único valor através de um processo iterativo via função `callback`.
