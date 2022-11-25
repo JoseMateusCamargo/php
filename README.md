@@ -12,7 +12,7 @@
     - array_filter, array_reduce, array_map, agrupamentos, array_multisort...
 - [Manipulando arquivos **.csv**](./csv-manipulating/README.md)
 - Projetos
-    - [Construindo um **Speaker** (_converter texto em fala_)](./projects/speaker/speaker.php)
+    - [Construindo um **Speaker** (_conversão de texto em fala_)](./projects/speaker/speaker.php)
     - [Lendo arquivos **.env**](./projects/reading-env/DotEnv.php)
 - Scripts
     - [Como chamar o arquivo <b>Python</b> de dentro do PHP?](https://github.com/JoseMateusCamargo/php/tree/main/scripts/run_python)
