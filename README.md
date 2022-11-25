@@ -20,23 +20,15 @@
     - [<b>HMAC</b>, criptografar mensagem por hash usando uma chave privada conhecida apenas por você e pela API.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/hmac-verification.php)
 - [Algoritmos de busca (_**Search algorithm**_)](./search-algorithm/README.md)
     - Dijkstra, Kruskal, Prim...
-- Algoritmos de ordenação (**_Sorting algorithm_**)
+- [Algoritmos de ordenação (**_Sorting algorithm_**)](./sorting-algorithm/README.md)
+    - Quicksort, Bubble sort, Insertion sort, Selection sort...
 - [Dicas e truques](./tips-and-tricks/README.md)
     - Valores de argumento padrão em parâmetros, Declaração tipo Scalar `strict_types`...
-- Métodos magicos (_**Magic methods**_)
+- Métodos mágicos (_**Magic methods**_)
 
 ---
 
-### Algoritmos de ordenação (Sorting algorithm)
-
-... Algoritmo de ordenação em ciência da computação é um algoritmo, de manipulação de dados, que coloca os elementos
-de uma dada sequência em uma certa ordem -- em outras palavras, efetua sua ordenação completa ou parcial.
-
-* [Types of Sorting Algorithms: <b>Quick Sort · Bubble Sort · Insertion Sort · Selection</b>.](./sorting-algorithm/README.md)
-
-----
-
-### Métodos magicos (Magic methods)
+### Métodos mágicos (Magic methods)
 
 Métodos mágicos são métodos especiais que substituem a ação padrão do PHP quando certas ações são executadas
 em um objeto.

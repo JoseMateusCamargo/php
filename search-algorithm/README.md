@@ -1,6 +1,6 @@
 <img src="https://i.ibb.co/M6nBBb0/mascote.png" align="right" width="130">
 
-# Algoritmos de pesquisa (Search Algorithms)
+# Algoritmos de busca (Search Algorithms)
 
 Em ciência da computação, um algoritmo de pesquisa é um algoritmo (normalmente envolvendo uma infinidade de outros
 algoritmos mais específicos) que resolve um problema de pesquisa. Os algoritmos de busca funcionam para recuperar
