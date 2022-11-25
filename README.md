@@ -10,10 +10,10 @@
     - Generators, Coroutines, foreach, HEREDOC, NOWDOC, Lambda, Closure, func_get_arg, sanitize...
 - [Trabalhando com Arrays](./arrays-manipulating/README.md)
     - array_filter, array_reduce, array_map, agrupamentos, array_multisort...
-- [Manipulando arquivos CSV](./csv-manipulating/README.md)
+- [Manipulando arquivos **.csv**](./csv-manipulating/README.md)
 - Projetos
-    - [Construindo um <b>speaker</b> - converter texto em fala.](./projects/speaker/speaker.php)
-    - [Lendo arquivos `.env`.](./projects/reading-env/DotEnv.php)
+    - [Construindo um **Speaker** (_converter texto em fala_)](./projects/speaker/speaker.php)
+    - [Lendo arquivos **.env**](./projects/reading-env/DotEnv.php)
 - Scripts
     - [Como chamar o arquivo <b>Python</b> de dentro do PHP?](https://github.com/JoseMateusCamargo/php/tree/main/scripts/run_python)
     - [Obter endereço IP de geolocalização..](https://github.com/JoseMateusCamargo/php/blob/main/scripts/get_geolocation.php)
@@ -23,7 +23,7 @@
 - [Algoritmos de ordenação (**_Sorting algorithm_**)](./sorting-algorithm/README.md) 🤠
     - Quicksort, Bubble sort, Insertion sort, Selection sort...
 - [Dicas e truques](./tips-and-tricks/README.md)
-    - Valores de argumento padrão em parâmetros, Declaração tipo Scalar `strict_types`...
+    - Valores de argumento padrão em parâmetros, Declaração tipo Scalar **strict_types**...
 - Métodos mágicos (_**Magic methods**_)
 
 ---
@@ -51,10 +51,3 @@ class Logger
 $log = new Logger();
 $log('Hello World'); // HELLO WORLD
 ```
-
-### Direitos de uso (Use rights)
-
-<p>
-  Você tem todo o direito de usar esse material para seu próprio aprendizado.<br/>
-  You can use this material for your own learning.
-</p>
