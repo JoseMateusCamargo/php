@@ -1,4 +1,6 @@
-## Sorting algorithm
+<img src="https://i.ibb.co/M6nBBb0/mascote.png" align="right" width="130">
+
+# Algoritmos de ordenação (Sorting algorithm)
 
 Algoritmo de ordenação em ciência da computação é um algoritmo, de manipulação de dados, que coloca os elementos de uma
 dada sequência em uma certa ordem -- em outras palavras, efetua sua ordenação completa ou parcial. As ordens mais usadas
@@ -6,10 +8,11 @@ são a numérica e a lexicográfica.
 
 ![Alt text](img/ordenacao-mais-comuns.gif?raw=true "Quicksort")
 
+#### Let's Go Code! Some types of search algorithms
 
 ---
 
-### Quick sort
+[Quicksort's Algorithm](./QuickSort.php)
 
 O quicksort adota a estratégia de divisão e conquista. A estratégia consiste em rearranjar as chaves de modo que as
 chaves "menores" precedam as chaves "maiores". Em seguida o quicksort ordena as duas sublistas de chaves menores e
@@ -22,9 +25,9 @@ maiores recursivamente até que a lista completa se encontre ordenada.
 
 ![Alt text](img/Quicksort.gif?raw=true "Quicksort")
 
---------------
+---
 
-### Bubble sort
+[Bubble sort's Algorithm](./BubbleSort.php)
 
 Este algoritmo percorre a lista de itens ordenáveis do início ao fim, verificando a ordem dos elementos dois a dois, e
 trocando-os de lugar se necessário. Percorre-se a lista até que nenhum elemento tenha sido trocado de lugar na passagem
@@ -37,9 +40,9 @@ anterior.
 
 ![Alt text](img/BubbleSort.gif?raw=true "Quicksort")
 
---------------
+---
 
-### Insertion sort
+[Insertion sort's Algorithm](./InsertionSort.php)
 
 Insertion Sort, ou ordenação por inserção, é um algoritmo de ordenação que, dado uma estrutura (array, lista) constrói
 uma matriz final com um elemento de cada vez, uma inserção por vez.
@@ -51,7 +54,9 @@ uma matriz final com um elemento de cada vez, uma inserção por vez.
 
 ![Alt text](img/InsertionSort.gif?raw=true "Quicksort")
 
---------------
+---
+
+[Selection sort's Algorithm](./SelectionSort.php)
 
 ### Selection sort
 

@@ -18,7 +18,8 @@
     - [Como chamar o arquivo <b>Python</b> de dentro do PHP?](https://github.com/JoseMateusCamargo/php/tree/main/scripts/run_python)
     - [Obter endereço IP de geolocalização..](https://github.com/JoseMateusCamargo/php/blob/main/scripts/get_geolocation.php)
     - [<b>HMAC</b>, criptografar mensagem por hash usando uma chave privada conhecida apenas por você e pela API.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/hmac-verification.php)
-- Algoritmos de busca (_**Search algorithm**_)
+- [Algoritmos de busca (_**Search algorithm**_)](./search-algorithm/README.md)
+    - Dijkstra, Kruskal, Prim...
 - Algoritmos de ordenação (**_Sorting algorithm_**)
 - [Dicas e truques](./tips-and-tricks/README.md)
     - Valores de argumento padrão em parâmetros, Declaração tipo Scalar `strict_types`...
@@ -32,13 +33,6 @@
 de uma dada sequência em uma certa ordem -- em outras palavras, efetua sua ordenação completa ou parcial.
 
 * [Types of Sorting Algorithms: <b>Quick Sort · Bubble Sort · Insertion Sort · Selection</b>.](./sorting-algorithm/README.md)
-
-----
-
-### [Algoritmos de busca (Search algorithm)](https://github.com/JoseMateusCamargo/php/blob/main/search-algorithm/README.md)
-
-... Em termos gerais é um algoritmo que toma um problema como entrada e retorna a solução para o problema,
-geralmente após resolver um número possível de soluções.
 
 ----
 
