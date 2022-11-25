@@ -16,7 +16,6 @@
 - Projetos
     - [Construindo um <b>speaker</b> - convertendo texto em fala.](./projects/speaker/speaker.php)
     - [Lendo arquivos `.env`.](./projects/reading-env/DotEnv.php)
-
 - Scripts
     - [<b>HMAC</b>, encrypt your message by hash using a private key known only to you and the API.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/hmac-verification.php)
     - [How to call <b>Python</b> file from within PHP?](https://github.com/JoseMateusCamargo/php/tree/main/scripts/run_python)
