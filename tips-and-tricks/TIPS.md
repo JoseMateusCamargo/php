@@ -5,7 +5,7 @@
 ## Tips and tricks
 
 - Definindo valores de argumento padrão para parâmetros de função.
-- Declaração ripo `Scalar` (_strict_types_).
+- Declaração tipo `Scalar` (_strict_types_).
 
 ---
 

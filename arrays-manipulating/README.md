@@ -1,8 +1,10 @@
-<img src="https://i.ibb.co/M6nBBb0/mascote.png" align="right" width="150">
+<img src="https://i.ibb.co/M6nBBb0/mascote.png" align="right" width="130">
 
-# JavaScript and JQuery
+# PHP
 
 ## Trabalhando com Arrays in PHP
+
+#### _Let's Code!_
 
 - `array_filter`, filtrar elementos de um array utilizando uma função `callback`.
 - `array_reduce`, reduzindo um array para um único valor através de um processo iterativo via função `callback`.
@@ -99,10 +101,3 @@ $prod_map = array_map(static function ($prod) {
 
 var_dump($prod_map);
 ```
-
-### Direitos de uso (Use rights)
-
-<p>
-  Você tem todo o direito de usar esse material para seu próprio aprendizado.<br/>
-  You can use this material for your own learning.
-</p>
