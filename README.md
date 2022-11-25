@@ -6,7 +6,7 @@
   Material com exemplos PHP.<br/>
 </p>
 
-- 🚀 [Manual (How to use)](./how-to-use/README.md)
+- [Manual (How to use)](./how-to-use/README.md) 🤠
     - Generators, Coroutines, foreach, HEREDOC, NOWDOC, Lambda, Closure, func_get_arg, sanitize...
 - [Trabalhando com Arrays](./arrays-manipulating/README.md)
     - array_filter, array_reduce, array_map, agrupamentos, array_multisort...
@@ -18,9 +18,9 @@
     - [Como chamar o arquivo <b>Python</b> de dentro do PHP?](https://github.com/JoseMateusCamargo/php/tree/main/scripts/run_python)
     - [Obter endereço IP de geolocalização..](https://github.com/JoseMateusCamargo/php/blob/main/scripts/get_geolocation.php)
     - [<b>HMAC</b>, criptografar mensagem por hash usando uma chave privada conhecida apenas por você e pela API.](https://github.com/JoseMateusCamargo/php/blob/main/scripts/hmac-verification.php)
-- 🚀 [Algoritmos de busca (_**Search algorithm**_)](./search-algorithm/README.md)
+- [Algoritmos de busca (_**Search algorithm**_)](./search-algorithm/README.md) 🤠
     - Dijkstra, Kruskal, Prim...
-- 🚀 [Algoritmos de ordenação (**_Sorting algorithm_**)](./sorting-algorithm/README.md)
+- [Algoritmos de ordenação (**_Sorting algorithm_**)](./sorting-algorithm/README.md) 🤠
     - Quicksort, Bubble sort, Insertion sort, Selection sort...
 - [Dicas e truques](./tips-and-tricks/README.md)
     - Valores de argumento padrão em parâmetros, Declaração tipo Scalar `strict_types`...
