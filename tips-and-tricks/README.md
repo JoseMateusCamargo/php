@@ -1,11 +1,13 @@
-<img src="https://i.ibb.co/M6nBBb0/mascote.png" align="right" width="150">
+<img src="https://i.ibb.co/M6nBBb0/mascote.png" align="right" width="130">
 
 # PHP
 
-## Tips and tricks
+## Dicas e truques
+
+#### _Let's Code!_
 
 - Definindo valores de argumento padrão para parâmetros de função.
-- Declaração tipo `Scalar` (_strict_types_).
+- Declaração tipo Scalar `strict_types`.
 
 ---
 
@@ -24,9 +26,9 @@ login('name01');
 login('name01', 'master');
 ```
 
-**Declaração ripo `Scalar` (_strict_types_)**
+**Declaração tipo Scalar `strict_types`**
 
-Use `strict_types` para forçar apenas o uso de int e tente declarar '100' na variável como o exemplo 2
+Use `strict_types` para forçar apenas o uso de int e tente declarar '100' na variável como o exemplo.
 
 ```PHP
 declare(strict_types=1);
