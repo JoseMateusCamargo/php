@@ -2,7 +2,7 @@
 
 # PHP
 
-## Trabalhando com Arrays in PHP
+## Trabalhando com Arrays
 
 #### _Let's Code!_
 
