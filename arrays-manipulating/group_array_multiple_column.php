@@ -1,5 +1,20 @@
 <?php
 
+/**
+ * @return array
+ */
+function getArr(): array
+{
+    return [
+        ['date' => '2021-05-25', 'site' => 'Google', 'visits' => '6,000', 'account' => '255'],
+        ['date' => '2021-05-25', 'site' => 'Google', 'visits' => 600, 'account' => '45'],
+        ['date' => '2021-05-25', 'site' => 'Facebook', 'visits' => 600, 'account' => '75'],
+        ['date' => '2021-05-24', 'site' => 'Google', 'visits' => 600, 'account' => '88'],
+        ['date' => '2021-05-24', 'site' => 'Facebook', 'visits' => 1600, 'account' => '45'],
+        ['date' => '2021-05-24', 'site' => 'Facebook', 'visits' => 700, 'account' => '4'],
+    ];
+}
+
 $array = getArr();
 /*
  * ...
