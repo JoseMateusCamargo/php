@@ -48,9 +48,6 @@ function saveObjectCsv(object $data, string $filename)
 **Gerar aquivo .csv de um array e realizar download, `File/Download`**
 
 ```PHP
-<?php
-// Generate CSV File/Download from Array
-
 $results = [
     0 => ["name" => "name one", "email" => "one@br", "gender" => "Male"],
     1 => ["name" => "name second", "email" => "second@br", "gender" => "Female"],

@@ -7,7 +7,7 @@
 #### _Let's Code!_
 
 - Definindo valores de **argumento padrão** para parâmetros de função.
-- Declaração tipo **Scalar** `strict_types`.
+- `strict_types`, declaração tipo **scalar**.
 
 ---
 
@@ -26,7 +26,7 @@ login('name01');
 login('name01', 'master');
 ```
 
-**Declaração tipo Scalar `strict_types`**
+**`strict_types`, declaração tipo **scalar****
 
 Use `strict_types` para forçar apenas o uso de int e tente declarar '100' na variável como o exemplo.
 

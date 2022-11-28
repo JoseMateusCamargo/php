@@ -8,45 +8,45 @@
 
 - **Generators.**
 - **Coroutines.**
-- Utilizando `foreach`, uma maneira fácil de iterar sobre arrays.
-- `Range`, criar um array contendo um range de elementos.
-- `Spaceship operators`, o operador` <=>` é utilizado para fazer comparações combinadas (_validações_).
-- Como usar sintaxe `HEREDOC` e/ ou `NOWDOC`.
-- Operador `Null coalescing`.
-- [Limpar as informações em cache sobre arquivos `clearstatcache`.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/clearstatcache.php)
-- [`Lambda` e `Closure`, funções anonimas.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/lambda_closure.php)
-- [`func_get_arg`, como retornar um item da lista de argumentos.](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/func_get_arg.php)
-- [Usando filtros php nativos (`sanitize`).](https://github.com/JoseMateusCamargo/php/blob/main/how-to-use/sanitize.php)
+- `foreach`, uma maneira fácil de iterar sobre arrays.
+- `range`, criar um array contendo um range de elementos.
+- **Spaceship operators**, o operador `<=>` é utilizado para fazer comparações combinadas (_validações_).
+- Como usar sintaxe `HEREDOC` e `NOWDOC`.
+- Operador **null coalescing** `??`.
+- [Limpar informações em cache sobre arquivos `clearstatcache`.](./clearstatcache.php)
+- [`Lambda` e `Closure`, funções anonimas.](./lambda_closure.php)
+- [`func_get_arg`, como retornar um item da lista de argumentos.](./func_get_arg.php)
+- [`sanitize`, usando filtros php nativos.](./sanitize.php)
 
 ---
 
 **Generators**
 
-Numa explicação acessível, _Generators_ são uma forma prática de se implementar _Iterators_. Para criar uma função
+Numa explicação acessível, **Generators** são uma forma prática de se implementar **Iterators**. Para criar uma função
 Generator, basta que ela possua a palavra reservada `yield`. O operador `yield` é uma espécie de `return`, só que com
 algumas particularidades. E uma função desse tipo retorna um objeto da classe `Generator`, que é uma classe especial e
-específica para esse contexto, não sendo possível utilizá-la de outra forma. Esse objeto retornado pode ser iterado
+específica para esse contexto, não sendo possível utilizá-la de outra forma. Esse objeto retornado pode ser iterado.
 
-* [Trabalhando com <b>Generators</b> de uma forma simples.](https://github.com/JoseMateusCamargo/php/tree/main/generators/generators_example.php)
-* [Trabalhando com <b>Generators</b> exemplo de uso (memória).](https://github.com/JoseMateusCamargo/php/tree/main/generators/generators_example_2.php)
-* [conhecendo mais sobre <b>Generators</b>, criando uma (`class`).](https://github.com/JoseMateusCamargo/php/tree/main/generators)
+* [Trabalhando com Generator de uma forma simples.](../generators/generators_example.php)
+* [Trabalhando com Generator exemplo de uso em **memória**.](../generators/generators_example_2.php)
+* [Conhecendo mais sobre Generator, criando uma <b>class</b>.](../generators/Generators.php)
 
 ---
 
 **Coroutines**
 
-Coroutines são funções interrompíveis. Em PHP eles podem ser implementados usando _generators_.
+**Coroutines** são funções interrompíveis. Em PHP eles podem ser implementados usando **Generators**.
 
 Enquanto os _generators_ geralmente são usados para implementar _iterators_ simples e elementos de rendimento usando a
 palavra chave `yield`, usadas como pontos de interrupção. Quando uma coroutine `yield` gera um valor, a execução da
 _coroutine_ é temporariamente interrompida, permitindo que outras tarefas sejam executadas, como manipuladores de E/S,
 temporizadores ou outras _coroutines_.
 
-* [<b>Coroutines</b> Cooperative multitasking using coroutines (in PHP!).](https://github.com/JoseMateusCamargo/php/tree/main/coroutine)
+* [<b>Coroutines</b>, multitarefa cooperativa usando corrotinas.](../coroutine)
 
 ---
 
-**[`Range`](https://www.php.net/manual/en/function.range.php), criar um array contendo um range de elementos**
+**[`range`](https://www.php.net/manual/en/function.range.php), criar um array contendo um range de elementos**
 
 ```PHP
 $x = range(11, 1, 4);
@@ -66,7 +66,7 @@ foreach ($numbers as $key => &$value) {
 print_r($numbers);
 ```
 
-**Utilizando `foreach`, uma maneira fácil de iterar sobre arrays**
+**`foreach`, uma maneira fácil de iterar sobre arrays**
 
 ```PHP
 $list = ["aaaa", "bbbb", "cccc"];
@@ -82,8 +82,8 @@ foreach ($list as $row) {
 }
 ```
 
-**[`Spaceship operators`](https://www.php.net/manual/en/language.operators.comparison.php), o operador` <=>` é utilizado
-para fazer comparações combinadas**
+**[Spaceship operators](https://www.php.net/manual/en/language.operators.comparison.php), o operador `<=>` é utilizado
+para fazer comparações combinadas (_validações_)**
 
 ```PHP 
 // echo 1 <=> 1; // 0 Retorna 0 se os valores de ambos os lados são iguais
@@ -98,7 +98,7 @@ foreach (range(0, 9) as $row) {
 }
 ```
 
-**Como usar sintaxe `HEREDOC` e/ ou `NOWDOC`.**
+**Como usar sintaxe `HEREDOC` e `NOWDOC`**
 
 ```PHP
 # Documentation: https://www.php.net/manual/pt_BR/language.types.string.php#language.types.string.syntax.heredoc
@@ -125,7 +125,7 @@ EOT;
 echo $nowdoc;
 ```
 
-**Operador [`Null coalescing`](https://www.php.net/manual/en/migration70.new-features.php)**
+**Operador [null coalescing](https://www.php.net/manual/en/migration70.new-features.php) `??`**
 
 Retorna seu primeiro operando se existe e não é null, caso contrário, ele retorna seu segundo operando.
 
