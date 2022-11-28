@@ -6,8 +6,8 @@
 
 #### _Let's Code!_
 
-- Definindo valores de argumento padrão para parâmetros de função.
-- Declaração tipo Scalar `strict_types`.
+- Definindo valores de **argumento padrão** para parâmetros de função.
+- Declaração tipo **Scalar** `strict_types`.
 
 ---
 

@@ -10,8 +10,8 @@
 - `array_reduce`, reduzindo um array para um único valor através de um processo iterativo via função **callback**.
 - `array_map`, aplica uma função em todos os elementos do array.
 - Função para subtrair valor de duas matrizes com a mesma chave.
-- [Função que <b>agrupa</b> um array de arrays associativos por alguma chave.](./group_array_associative_by_key.php)
-- [Função que <b>agrupa</b> dados de <b>subarray</b> usando valores de várias colunas e soma outros valores.](./group_array_multiple_column.php)
+- [<b>Agrupar</b> um array de arrays associativos por alguma chave.](./group_array_associative_by_key.php)
+- [<b>Agrupar</b> dados de <b>subarray</b> usando valores de várias colunas e soma outros valores.](./group_array_multiple_column.php)
 - [`array_multisort`, classifique arrays múltiplos ou multidimensionais.](./array_multisort.php)
 
 ---

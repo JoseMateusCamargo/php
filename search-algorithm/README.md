@@ -8,7 +8,7 @@ informações armazenadas dentro de alguma estrutura de dados, ou calculadas no 
 com valores discretos ou contínuos. Em termos gerais é um algoritmo que toma um problema como entrada e retorna a
 solução para o problema, geralmente após resolver um número possível de soluções.
 
-#### Let's Go Code! Some types of search algorithms
+#### Let's Go Code!
 
 ---
 

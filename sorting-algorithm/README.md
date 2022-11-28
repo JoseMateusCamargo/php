@@ -8,7 +8,7 @@ são a numérica e a lexicográfica.
 
 ![Alt text](img/ordenacao-mais-comuns.gif?raw=true "Quicksort")
 
-#### Let's Go Code! Some types of search algorithms
+#### Let's Go Code!
 
 ---
 
