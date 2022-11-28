@@ -15,9 +15,9 @@
     - [Construindo um **Speaker** (_conversão de texto em fala_)](./projects/speaker/speaker.php)
     - [Lendo arquivos **.env**](./projects/reading-env/DotEnv.php)
 - Scripts
-    - [Como chamar o arquivo <b>Python</b> de dentro do PHP?](https://github.com/JoseMateusCamargo/php/tree/main/scripts/run_python)
-    - [Obter endereço IP de geolocalização](https://github.com/JoseMateusCamargo/php/blob/main/scripts/get_geolocation.php)
-    - [<b>HMAC</b>, criptografar mensagem por hash usando uma chave privada conhecida apenas por você e pela API](https://github.com/JoseMateusCamargo/php/blob/main/scripts/hmac-verification.php)
+    - [Como chamar o arquivo <b>Python</b> de dentro do PHP? ](./scripts/run_python) 🎖️
+    - [Obter endereço IP de geolocalização](./scripts/get_geolocation.php)
+    - [<b>HMAC</b>, criptografar mensagem por hash usando uma chave privada conhecida apenas por você e pela API](./scripts/hmac-verification.php)
 - [Algoritmos de busca (**Search algorithm**)](./search-algorithm/README.md) 🤠
     - Dijkstra, Kruskal, Prim...
 - [Algoritmos de ordenação (**Sorting algorithm**)](./sorting-algorithm/README.md) 🤠
